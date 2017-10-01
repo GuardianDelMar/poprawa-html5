@@ -1,98 +1,61 @@
-/* General styles */
-
-body {
-	margin: 0;
-	font-family: 'Lato', sans-serif;
+body{
+    font-family: Lato;
+    background-color: #222;
+    margin: 0;
+    text-align: center;
 }
-
-.header {
-	text-align: center;
-	font-size: 30px;
-	margin-bottom: 20px;
+.menu{
+    position: relative;
+    text-align: center;
+    margin:0; 
+    
 }
-
-.section {
-	margin: 30px 0;
-	padding: 0 50px;
+.menu ul li{
+    
+   list-style: none;
+    display: inline-block;
+    
 }
-
-.content {
-	text-align: center;
+.menu__item a
+{
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right:20px;
+    font-size: 2.5m;
 }
-
-
-/* Menu styles */
-
-.menu {
-	text-align: center;
-	background: #222;
+.header--main{
+    position: relative;
+    text-align: center;
+    height: 100%;
 }
-
-.menu__list {
-	margin: 0;
+    img{width: 100%;}  
+h1{
+    font-size: 4em;
+    color:white;
+    text-transform: uppercase;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top:50%;
 }
+.section{
+    background-color: white;
+    text-align: center;
 
-.menu__item {
-	display: inline-block;
-	padding: 25px;
-	list-style: none;
 }
-
-.menu__item a {
-	text-decoration: none;
-	color: #fff;
+ h2{
+    font-size: 2.5em;
 }
-
-.menu__item a:hover {
-	color: #999;
+.content{
+    font-size: 1em;
 }
-
-
-/* Header styles */
-
-.header--main {
-	position: relative;
+.contact{
+    text-align: center;
+    color:white;
 }
-
-.header--main img {
-	width: 100%;
-}
-
-.header__title--main {
-	position: absolute;
-	top: 50%;
-	font-size: 50px;
-	font-weight: 700;
-	margin: 0 auto;
-	left: 0;
-	right: 0;
-	text-transform: uppercase;
-	color: #fff;
-}
-
-
-
-/* Footer styles */
-
-.contact {
-	padding: 30px 50px;
-	background: #222;
-}
-
-.contact__header {
-	color: #fff;
-}
-
-.contact__content {
-	text-align: center;
-	color: #fff;
-	font-style: normal;
-}
-
-.contact__content a {
-	color: #fff;
-}
-
-.contact__content a:hover {
-	color: #999;
+.contact__content a{
+    color:white;
+    font-style: normal;
+    
 }
